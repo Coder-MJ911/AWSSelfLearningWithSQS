@@ -1,0 +1,13 @@
+####  Intellij  ###
+/.idea/*
+/.bsp
+/.idea
+out/
+.idea/*
+.idea
+./target
+./target/*
+target
+target/
+.gradle
+.gradle/*
