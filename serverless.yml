@@ -29,7 +29,7 @@ provider:
           - Arn
 
 package:
-  artifact: build/libs/AWSLAmbdaAndSQS.jar
+  artifact: build/libs/AWSSelfLearning.jar
 
 functions:
   Lambda1:
@@ -76,7 +76,7 @@ resources:
             - FailedQueue
             - Arn
           maxReceiveCount: 3
-        KmsMasterKeyId: ded05a6e-2173-4a8a-aa9a-5a23e8d579fd
+#        KmsMasterKeyId: ded05a6e-2173-4a8a-aa9a-5a23e8d579fd
 
     FailedQueue:
       Type: AWS::SQS::Queue
